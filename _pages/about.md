@@ -6,7 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+- Our paper on causal reasoning will be presented at Neurips 2024!
+- Our paper on oracle based clustering was accepted at PODS 2025!
+- Our paper on distribution-aware data discovery was accepted at VLDB 2024!
 - Our paper on generating compressed schema descriptions as LLM input was accepted at VLDB 2024!
 - Ziyun Wei successfully defends his PhD thesis "Robust Querying for Data Analysis and Processing"!
 - Our paper on JoinGym was accepted at RLC 2024!
