@@ -5,8 +5,11 @@ permalink: /publications/
 author_profile: true
 ---
 ### 2025
+
 - **PODS 2025** Clustering with Comparison and Distance Oracles. _Sainyam Galhotra, Rahul RayChaudhary, Stavros Sintos_.
+  
 ### 2024
+
 - **SIGMOD 2024**  Nexus: Correlation Discovery over Collections of Spatio-Temporal Tabular Data. _Yue Gong, Sainyam Galhotra, and Raul Castro Fernandez_. 
 - **SIGMOD 2024** Faster Algorithms for Fair Max-Min Diversification in R^d. _Yash Kurkure, Miles Shamo, Joseph Wiseman, Sainyam Galhotra, and Stavros Sintos_. 
 - **SIGMOD 2024** Demonstration of Ver: View Discovery in the Wild. _Kevin Dharmawan, Chirag A. Kawediya, Yue Gong, Zaki Indra Yudhistira, Zhiru Zhu, Sainyam Galhotra, Adila Alfa Krisnadhi, Raul Castro Fernandez_.
