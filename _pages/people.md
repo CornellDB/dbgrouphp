@@ -9,8 +9,8 @@ author_profile: true
 
 ## Faculty
 
-- Sainyam Galhotra
-- Immanuel Trummer
+- <a href="www.sainyamgalhotra.com">Sainyam Galhotra</a>
+- <a href="https://itrummer.github.io/">Immanuel Trummer</a>
 
 ## PhD Students
 
@@ -24,7 +24,7 @@ author_profile: true
 - Saehan Jo
 - Tharushi Jayasekara
 - Victor Giannakouris
-- Whenzi Li
+- <a href="https://wenzhilics.github.io/ ">Whenzi Li</a>
 
 ### Graduates
 
