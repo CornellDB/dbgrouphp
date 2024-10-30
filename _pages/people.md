@@ -24,7 +24,7 @@ author_profile: true
 - Saehan Jo
 - Tharushi Jayasekara
 - Victor Giannakouris
-- <a href="https://wenzhilics.github.io/ ">Whenzi Li</a>
+- <a href="https://wenzhilics.github.io/ ">Wenzhi Li</a>
 
 ### Graduates
 
