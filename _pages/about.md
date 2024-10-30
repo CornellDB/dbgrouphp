@@ -6,6 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+<img src="dbgroup_fall24.jpg">
+
 - Our paper on causal reasoning will be presented at Neurips 2024!
 - Our paper on oracle based clustering was accepted at PODS 2025!
 - Our paper on distribution-aware data discovery was accepted at VLDB 2024!
