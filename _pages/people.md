@@ -17,13 +17,12 @@ author_profile: true
 ### Current
 
 - Anna Mazhar
-- Eric Enouen
+- <a href="https://ericenouen.github.io/">Eric Enouen</a>
 - Jiale Lao
 - Junxiong Wang
 - Ning Wang
 - Saehan Jo
 - Tharushi Jayasekara
-- Ved Sriraman
 - Victor Giannakouris
 - Whenzi Li
 
@@ -40,6 +39,7 @@ author_profile: true
 - Ankush Rayabhari
 
 ## Undergraduate Students
-
+- Ved Sriraman
+- Shubham Mohole
 - Ashley Granitto
 - Connor Anderson
