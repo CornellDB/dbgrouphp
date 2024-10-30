@@ -1,5 +1,3 @@
-<img src="./_pages/dbgroup_fall24.jpg">
-
 ---
 permalink: /
 title: "News"
