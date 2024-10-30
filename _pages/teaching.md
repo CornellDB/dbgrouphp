@@ -13,7 +13,10 @@ author_profile: true
 - CS 4320: Introduction to database systems.
 - CS 4321: Practicum in database systems.
 - CS 6320: Advanced database systems.
+- CS 6386: <a href="https://cs6386.github.io/">Data to Decisions: Principles of Efficient Data Science</a>
 - CS 7390: Seminar in database systems.
+  
+
 
 # Online Courses
 
