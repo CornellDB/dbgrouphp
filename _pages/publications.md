@@ -6,6 +6,16 @@ author_profile: true
 ---
 ### 2025
 
+- **SIGMOD 2025** Demonstrating CEDAR: A System for Cost-Efficient Data-Driven Claim Verification. _Tharushi Jayasekara, Immanuel Trummer_.
+- **SIGMOD 2025** Demonstrating SQLBarber: Leveraging Large Language Models to Generate Customized, Constraint-aware, and Realistic SQL. _Jiale Lao, Immanuel Trummer_.
+- **SIGMOD 2025** SwellDB: Dynamic Query-Driven Table Generation with Large Language Models. _Victor Giannakouris, Immanuel Trummer_.
+- **SIGMOD 2025** λ-Tune: Harnessing Large Language Models for Automated Database System Tuning. _Victor Giannakouris, Immanuel Trummer_.  
+[[Paper](https://doi.org/10.1145/3709652)]
+- **SIGMOD 2025** SpareLLM: Automatically Selecting Task-Specific Minimum-Cost Large Language Models under Equivalence Constraint. _Saehan Jo, Immanuel Trummer_. 
+- **VLDBJ 2025 Best of VLDB** Generating Highly Customizable Python Code for Data Processing with Large Language Models. _Immanuel Trummer_.  
+[[Paper](https://doi.org/10.1007/s00778-025-00900-4)]
+- **Data Engineering Bulleting 2025** Customizing Operator Implementations for SQL Processing via Large Language Models. _Immanuel Trummer_.  
+[[Paper](http://sites.computer.org/debull/A25mar/p45.pdf)]
 - **PODS 2025** Clustering with Comparison and Distance Oracles. _Sainyam Galhotra, Rahul RayChaudhary, Stavros Sintos_.
   
 ### 2024
