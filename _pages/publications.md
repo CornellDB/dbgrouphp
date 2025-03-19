@@ -29,8 +29,7 @@ author_profile: true
 - **ICDE 2024** Tutorial on Large Language Models: Principles and Practice. _Immanuel Trummer_.
 - **VLDB 2024** Quantum-Inspired Digital Annealing for Join Ordering. _Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer_.  
 - **VLDB 2024**  Fainder: A Fast and Accurate Index for Distribution-Aware Dataset Search. _Lennart Behme, Sainyam Galhotra, Kaustubh Beedkar, Volker Markl_. 
-- **Neurips 2024** Intervention and Conditioning in Causal Bayesian Networks. _Sainyam Galhotra, Joseph Y. Halpern_.
-
+- **Neurips 2024** Intervention and Conditioning in Causal Bayesian Networks. _Sainyam Galhotra, Joseph Y. Halpern_.  
 [[Paper](https://lfdr.de/Publications/2023/ScTrMa_TR.pdf)]
 - **VLDB 2024** Generating Succinct Descriptions of Database Schemata for Cost-Efficient Prompting of Large Language Models. _Immanuel Trummer_.
 - **VLDB 2024** Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes. _Simran Arora, Brandon Yang, Sabri Eyuboglu, Avanika Narayan, Andrew Hojel, Immanuel Trummer, Christopher Re_.  
