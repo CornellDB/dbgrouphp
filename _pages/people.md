@@ -19,7 +19,6 @@ author_profile: true
 - Anna Mazhar
 - <a href="https://ericenouen.github.io/">Eric Enouen</a>
 - Jiale Lao
-- Junxiong Wang
 - Ning Wang
 - Saehan Jo
 - Tharushi Jayasekara
@@ -28,6 +27,7 @@ author_profile: true
 
 ### Graduates
 
+- Junxiong Wang (now at TogetherAI)
 - Ziyun Wei (now at ByteDance)
 
 ## Master Students
