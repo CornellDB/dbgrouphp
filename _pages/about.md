@@ -7,6 +7,11 @@ redirect_from:
   - /about.html
 ---
 
+- Three demos accepted at SIGMOD 2025 (SQLBarber, SwellDB, and CEDAR)!
+- Our paper on GenesisDB was accepted at the IEE Data Engineering Bulletin!
+- Our paper on CARD was published in the **BEST OF VLDB** edition of VLDBJ!
+- Our paper on SpareLLM was accepted at SIGMOD 2025!
+- Our paper on λ-Tune was accepted at SIGMOD 2025!
 - Our paper on causal reasoning will be presented at Neurips 2024!
 - Our paper on oracle based clustering was accepted at PODS 2025!
 - Our paper on distribution-aware data discovery was accepted at VLDB 2024!
