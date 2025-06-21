@@ -7,6 +7,10 @@ redirect_from:
   - /about.html
 ---
 
+- Our paper on leveraging digital annealers for query optimization accepted at SIGMOD 2026!
+- Our paper on CEDAR (cost-efficient data-driven claim verification) accepted at VLDB 2025!
+- Two papers accepted at the Q-Data 2025 workshop!
+- One paper accepted at the CDMS 2025 workshop!
 - Three demos accepted at SIGMOD 2025 (SQLBarber, SwellDB, and CEDAR)!
 - Our paper on GenesisDB was accepted at the IEE Data Engineering Bulletin!
 - Our paper on CARD was published in the **BEST OF VLDB** edition of VLDBJ!
