@@ -24,6 +24,7 @@ author_profile: true
 - **PODS 2025** Clustering with Comparison and Distance Oracles. _Sainyam Galhotra, Rahul RayChaudhary, Stavros Sintos_.
 - **Q-Data 2025** Leveraging Quantum Computing for Optimal Data Allocation in Distributed Systems. _Immanuel Trummer_.
 - **Q-Data 2025** Cost-Based Query Optimization for Quantum Computation. _Immanuel Trummer_.
+- **CDMS 2025** Rethinking Pluggable Federated Query Optimization: From Laptops to Data Warehouses. _Victor Giannakouris, Immanuel Trummer_.
   
 ### 2024
 
