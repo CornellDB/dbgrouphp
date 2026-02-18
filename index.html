@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta property="og:title" content="Cornell Database Group - Database Systems Research"/>
+  <meta property="og:description" content="Cornell Database Group conducts cutting-edge research in database systems, AI-powered query optimization, large language models for data management, reinforcement learning, and multi-modal data processing. Led by Prof. Immanuel Trummer and Prof. Sainyam Galhotra at Cornell University."/>
+  <meta property="description" content="Cornell Database Group conducts cutting-edge research in database systems, AI-powered query optimization, large language models for data management, reinforcement learning, and multi-modal data processing."/>
+
+  <meta property="og:url" content="https://cornelldb.github.io/dbgrouphp/"/>
+  <meta name="keywords" content="Cornell Database Group, Cornell DB, Cornell University Database, Database Systems Research, Query Optimization, Database Tuning, AI Database Systems, Machine Learning Database, LLM Data Management, Large Language Models Database, Natural Language Processing Database, Reinforcement Learning Database, SkinnerDB, DB-BERT, UDO, CodexDB, NaturalMiner, Immanuel Trummer, Sainyam Galhotra, Cornell CS, Database PhD, Query Processing, Data Systems, Semantic Query Processing, Multi-modal Data, Voice Query, Fact Checking Database, SIGMOD, VLDB, Database Research Papers, Cornell Computer Science, Ithaca NY Database, Database Optimization, Adaptive Query Processing, Database Machine Learning"/>
+  <meta name="author" content="Cornell Database Group, Cornell University"/>
+  <meta name="robots" content="index, follow"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Cornell Database Group"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Cornell Database Group</title>
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <!-- Cornell Logo -->
+          <div class="hero-logo">
+            <img src="static/images/logos/cornell-university.png" alt="Cornell University" class="cornell-hero-logo">
+          </div>
+          <h1 class="title is-1 publication-title">Cornell Database Group</h1>
+          <p class="subtitle is-4 publication-subtitle">Advancing Database Systems Research with AI and Machine Learning</p>
+          <br>
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- GitHub link -->
+              <span class="link-block">
+                <a href="https://github.com/cornelldbgroup/" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-github"></i></span>
+                  <span>GitHub</span>
+                </a>
+              </span>
+              <!-- YouTube link -->
+              <span class="link-block">
+                <a href="https://www.youtube.com/channel/UCRPom3J1CUThzJIJ5jk77eA" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-youtube"></i></span>
+                  <span>YouTube</span>
+                </a>
+              </span>
+              <!-- Twitter link -->
+              <span class="link-block">
+                <a href="https://twitter.com/ImmanuelTrummer" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-twitter"></i></span>
+                  <span>Twitter</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Navigation Menu -->
+<section class="section navigation-section">
+  <div class="container is-max-desktop">
+    <div class="navigation-menu">
+      <a href="#gallery" class="nav-item">Gallery</a>
+      <a href="#news" class="nav-item">News</a>
+      <a href="#people" class="nav-item">People</a>
+      <a href="#projects" class="nav-item">Projects</a>
+      <a href="#publications" class="nav-item">Publications</a>
+    </div>
+  </div>
+</section>
+
+<!-- Photo Gallery Section -->
+<section id="gallery" class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-ninety">
+        <h2 class="title is-2">Cornell DB Group</h2>
+        <p class="subtitle is-5">Conferences, Retreats, Graduations & Group Moments</p>
+
+        <div class="gallery-grid" id="gallery-grid">
+          <!-- Gallery items loaded dynamically from data/gallery.json -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">&times;</span>
+  <span class="lightbox-prev" onclick="event.stopPropagation(); changeImage(-1)">&#10094;</span>
+  <span class="lightbox-next" onclick="event.stopPropagation(); changeImage(1)">&#10095;</span>
+  <img id="lightbox-img" class="lightbox-content">
+  <div id="lightbox-caption" class="lightbox-caption"></div>
+</div>
+
+<!-- News Section -->
+<section id="news" class="section hero is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-ninety">
+          <h2 class="title is-2">Latest News</h2>
+          <div class="content has-text-justified">
+            <div class="news-container">
+              <ul class="news-list" id="news-list">
+                <!-- News items loaded dynamically from data/news.json -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- People Section -->
+<section id="people" class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-ninety">
+        <h2 class="title is-2">People</h2>
+
+        <!-- Faculty -->
+        <div class="people-category">
+          <h3 class="title is-3">Faculty</h3>
+          <div class="people-grid" id="faculty-grid">
+            <!-- Faculty loaded dynamically from data/people.json -->
+          </div>
+        </div>
+
+        <!-- PhD Students -->
+        <div class="people-category">
+          <h3 class="title is-4">PhD Students (Current)</h3>
+          <div class="people-grid" id="phd-students-grid">
+            <!-- PhD students loaded dynamically from data/people.json -->
+          </div>
+        </div>
+
+        <!-- PhD Graduates -->
+        <div class="people-category">
+          <h3 class="title is-5">PhD Graduates</h3>
+          <div class="people-grid" id="phd-graduates-grid">
+            <!-- PhD graduates loaded dynamically from data/people.json -->
+          </div>
+        </div>
+
+        <!-- Undergraduate Students -->
+        <div class="people-category">
+          <h3 class="title is-5">Undergraduate Students</h3>
+          <div class="people-grid" id="undergrads-grid">
+            <!-- Undergraduate students loaded dynamically from data/people.json -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="hero is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-ninety">
+          <h2 class="title is-2">Featured Projects</h2>
+          <div class="content has-text-justified">
+            <div class="projects-grid" id="projects-grid">
+              <!-- Projects loaded dynamically from data/projects.json -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Publications Section -->
+<section id="publications" class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-ninety">
+        <h2 class="title is-2">Publications</h2>
+        <div class="content has-text-justified">
+          <div class="publications-container" id="publications-container">
+            <!-- Publications loaded dynamically from data/publications.json -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-10">
+        <div class="content has-text-centered">
+          <div class="footer-content">
+            <h3 class="footer-title">Cornell Database Group</h3>
+            <p class="footer-info">Department of Computer Science<br>Cornell University<br>Ithaca, NY 14853</p>
+            <div class="footer-links">
+              <a href="https://github.com/cornelldbgroup/" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://www.youtube.com/channel/UCRPom3J1CUThzJIJ5jk77eA" target="_blank"><i class="fab fa-youtube"></i></a>
+              <a href="https://twitter.com/ImmanuelTrummer" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="footer-copyright">© 2025 Cornell Database Group</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
