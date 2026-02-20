@@ -1,5 +1,11 @@
 [
   {
+    "text": "Our paper on solving query optimization via mixed integer linear programming accepted at <strong>VLDB 2026</strong>!"
+  },
+  {
+    "text": "Our paper on generating customizable SQL benchmarks via LLMs accepted at <strong>SIGMOD 2026</strong>!"
+  },
+  {
     "text": "Our paper on leveraging digital annealers for query optimization accepted at <strong>SIGMOD 2026</strong>!"
   },
   {
