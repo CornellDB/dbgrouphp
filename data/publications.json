@@ -5,6 +5,18 @@
       "title": "Large-Scale Multiple Query Optimisation with Incremental Quantum(-Inspired) Annealing",
       "authors": "Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer",
       "links": []
+    },
+    {
+      "venue": "SIGMOD 2026",
+      "title": "SQLBarber: A System Leveraging Large Language Models to Generate Customized and Realistic SQL Workloads",
+      "authors": "Jiale Lao, Immanuel Trummer",
+      "links": []
+    },
+    {
+      "venue": "VLDB 2026",
+      "title": "Hybrid Mixed Integer Linear Programming for Large-Scale Join Order Optimisation",
+      "authors": "Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer",
+      "links": []
     }
   ],
   "2025": [
