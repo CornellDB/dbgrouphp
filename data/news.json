@@ -1,5 +1,11 @@
 [
   {
+    "text": "Our paper on efficient implementation of semantic join operators accepted at <strong>IEEE DEB 2026</strong>!"
+  },
+  {
+    "text": "Our paper on SemBench, a benchmark for semantic query processing, accepted at <strong>VLDB 2026</strong>!"
+  },
+  {
     "text": "Our paper on solving query optimization via mixed integer linear programming accepted at <strong>VLDB 2026</strong>!"
   },
   {
