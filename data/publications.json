@@ -1,6 +1,12 @@
 {
   "2026": [
     {
+      "venue": "IEEE DEB 2026",
+      "title": "Optimal Block Nested Loops Implementations for Semantic Joins",
+      "authors": "Immanuel Trummer",
+      "links": []
+    },
+    {
       "venue": "SIGMOD 2026",
       "title": "Large-Scale Multiple Query Optimisation with Incremental Quantum(-Inspired) Annealing",
       "authors": "Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer",
@@ -16,6 +22,12 @@
       "venue": "VLDB 2026",
       "title": "Hybrid Mixed Integer Linear Programming for Large-Scale Join Order Optimisation",
       "authors": "Manuel Schönberger, Immanuel Trummer, Wolfgang Mauerer",
+      "links": []
+    },
+    {
+      "venue": "VLDB 2026",
+      "title": "SemBench: A Benchmark for Semantic Query Processing Engines",
+      "authors": "Jiale Lao, Andreas Zimmerer, Olga Ovcharenko, Tianji Cong, Matthew Russo, Gerardo Vitagliano, Michael Cochez, Fatma Özcan, Gautam Gupta, Thibaud Hottelier, H. V. Jagadish, Kris Kissel, Sebastian Schelter, Andreas Kipf, Immanuel Trummer",
       "links": []
     }
   ],
